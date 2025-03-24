@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  gap: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: white;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    gap: 30px;
+}
+
+#logo{
+    height: 70px;
+    transform: scale(1.3);
+}
+
+li{
+    font-size: 22px;
+    font-family: 'Bebas Neue';
+    color: #00cc00;
+}
+
+main{
+    width: 100%;
+  
+}
+
+#mainImage {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.content-Contaiener {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    
+  }
+#padding_pass{
+    padding: 25px;
+}
+
+.content{
+    text-align: center; 
+  max-width: 950px; 
+  padding: 30px;
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+#product {
+    font-size: 6vh; 
+    color: #00cc00; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+.content span {
+    display: block; 
+    text-align: left; 
+    font-size: 1.1rem;
+    line-height: 1.6; 
+    color: #333; 
+    margin-top: 10px; 
+   font-family: 'Poppins';
+}
+
+.product_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#sucoImage{
+    height: 50vh;
+}
+
+.content-Container{
+    background-color: #0077b6;
+    
+}
+
+.AboutContainer{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  padding-top: 50px;
+}
+
+
+
+#about-title{
+    
+    text-align: center;
+    color: #00cc00;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 8vh;
+}
+
+.AboutContainer span{
+    display: block; 
+    text-align: center; 
+    font-size: 1.1rem;
+    line-height: 1.6; 
+    color: #333; 
+    margin-top: 10px; 
+   font-family: 'Poppins';
+}
+
+.aboutContent{
+    text-align: center; 
+    max-width: 950px; 
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+}
+
+
+.identityContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.identityRow{
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    width: 100%;
+    max-width: 900px; 
+}
+
+.identityContent{
+   
+    text-align: center; 
+    max-width: 400px; 
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+}
+
+.identityValues{
+    width: 100%;
+    max-width: 900px; 
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+#identity-title{
+    font-family: "Bebas Neue", sans-serif;
+    color: #00cc00;
+    text-align: center;
+}
+
+.identityContent span{
+    font-family: 'Poppins';
+}
+
+.identityValues span{
+    text-align: start;
+    font-family: 'Poppins';
+}
+
+.sustentability{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+    background-image: url(../images/fundo.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-color: rgba(255, 255, 255, 0.6); /* Ajusta a transparência do fundo */
+    background-blend-mode: lighten; /* Mistura a imagem com o fundo branco */
+}
+
+.sustentabilityContent h1{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: #00cc00;
+    font-size: 6vh;
+}
+.sustentability-title{
+    font-family: "Bebas Neue", sans-serif;
+    color: #00cc00;
+    font-size: 3rem;
+}
+
+.sustentabilityRow {
+    display: flex;
+    justify-content: space-around; 
+    gap: 40px; 
+    width: 100%;
+    max-width: 900px; 
+}
+
+.sustentabilityContent{
+    width: 100%;
+    max-width: 500px; 
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins';
+    text-align: start;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact h1{
+    font-family: "Bebas Neue", sans-serif;
+    color: #00cc00;
+    font-size: 6vh;
+}
+
+.contactForm{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins';
+}
+
+.contactContent{
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins';
+    width: 700px;
+    height: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label{
+    display: block;
+    font-family: 'Poppins';
+}
+
+input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+button{
+    width: 100%;
+    border: 2px solid;
+   
+    color: #333;
+    border-radius: 8px;
+    padding: 8px 12px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: gray;
+    color: #fff;
+}
+
+footer{
+    background-color: #0077b6;
+    font-family: 'Poppins';
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+#logoFooter{
+    height: 120px;
+}
+
